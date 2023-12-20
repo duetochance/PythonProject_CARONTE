@@ -1,0 +1,5 @@
+ORACLE;SQL;DESCRIZIONE
+FROM DUAL;;Eliminazione di FROM DUAL
+NVL;ISNULL;Sostituzione di ISNULL con NVL
+36;";";"Rimuovere i dollari, indicano il ; di termine istruzione in oracle"
+COMMIT;;
