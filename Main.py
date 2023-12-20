@@ -11,8 +11,11 @@ except:
 
 print('2 --------------------------\n Inizio Esportazione \n--------------------------\n')
 try:
-    expJ.tableExportJson('TABCLSCRIPT',connection)
-
+    print('\nEsportazione TABCLSCRIPT\n')
+    #expJ.tableExportJson('TABCLSCRIPT',connection)
+    expJ.confTableExportJson('TABCLSCRIPT',connection)
+    expJ.confTableExportJson('TABCCAMPIONI',connection)
+    
 except:
     print('\nEsportazione json fallita!\n')
     exit
